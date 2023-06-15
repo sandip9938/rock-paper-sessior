@@ -1,0 +1,126 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 21993px;
+  height: 200px;
+  width: 200px;
+}
+header {
+  background-color: rgb(255, 234, 0);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  color: #f5f1f1;
+}
+section {
+  background-color: black;
+  color: white;
+  height: 100vw;
+  width: 100vw;
+}
+.scoreboard {
+  border: 3px soild aquamarine;
+
+  padding: 2px;
+  height: 130px;
+  width: 400px;
+  background-color: rgb(0, 157, 255);
+  font-size: 20px;
+  font-weight: 800;
+  box-shadow: 4px 0px 4px 0px #f90404;
+  margin-left: 750px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.result {
+  height: 100px;
+  width: 400px;
+  margin: 25px;
+  padding: 2px;
+
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  box-shadow: 1px 5px 5px 5px #f90404;
+  border-radius: 15px;
+  color: #f5f1f1;
+  margin-left: 750px;
+  text-align: center;
+}
+#choicebag {
+  display: flex;
+  margin: 50px;
+  padding: 14px;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+
+  height: 400px;
+  width: 850px;
+  background-color: rgb(5, 5, 5);
+  margin-left: 500px;
+  position: relative;
+  border-radius: 200px;
+  box-shadow: 1px 5px 5px 5px #f90404;
+}
+.badge {
+  height: 40px;
+  background-color: aqua;
+  color: black;
+  justify-content: center;
+  display: flex;
+  border-radius: 18px;
+  text-align: center;
+  border: 2px solid black;
+}
+#choicebag img {
+  padding: 39px;
+  background-color: #f5f1f1;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 2px #f90404;
+}
+.choice :hover {
+  background-color: yellow;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 2px #2504f9;
+  cursor: pointer;
+}
+.actionmessage {
+  justify-content: center;
+  display: flex;
+  font-size: 19px;
+  cursor: pointer;
+}
+.actionmessage :hover {
+  color: #04c8f9;
+}
+.badge:hover {
+  background-color: #f90404;
+  color: #04c8f9;
+  font-size: x-large;
+}
+span {
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
+#computerscore {
+  font-size: 20px;
+  background-color: #04c8f9;
+  font-size: 42px;
+}
+#userscore {
+  font-size: 20px;
+  background-color: #04c8f9;
+font-size: 42px;
+  margin-left: 170px;
+}
